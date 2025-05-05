@@ -1,4 +1,4 @@
-# Subscreve nos tópicos das máquinas: "v3/{GroupID}@ttn/devices/{machine_id}/up" hehehehe
+# Subscreve nos tópicos das máquinas: "v3/{GroupID}@ttn/devices/{machine_id}/up" 
 # Normaliza e processa os dados e evia-os para um topico a começar por {GroupID} para o Data_Manager_Agent ver valores fora dos limites
 # Comunica com o Alert_manager (por UDP) para ver se a máquina está saudável ou não, e se precisa de parar
 # É o ÚNICO componente que comunica diretamente com as máquinas de uma forma estranha com 4bits que dizem se tem que parar, se tem q diminuir valores muito altos...
